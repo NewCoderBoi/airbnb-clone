@@ -5,9 +5,59 @@
 }
 
 body {
-    background-color: antiquewhite;
+    background-color: black;
 
 }
 .airbnblogo{
     padding-top: 10px;
 }
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+
+.nav_bar_list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.top_padding{
+    padding-top: 20px;    
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.top_padding
+{
+    color: white;
+}
+.myprofile{
+    height: 42px;
+    width: 77px;
+    background-color: white;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 40px  ;
+
+}
+.right_elements_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+
+
+
+
