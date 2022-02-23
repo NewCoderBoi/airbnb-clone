@@ -10,12 +10,17 @@ body {
 }
 .airbnblogo{
     padding-top: 10px;
+    padding-left: 80px;
 }
 header{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-top: 25px;
+}
+
+.top_bar {
+    padding-left: 80px;
 }
 
 .nav_bar_list{
@@ -23,7 +28,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 20px;
+    gap: 60px;
 }
 
 .top_padding{
@@ -50,6 +55,7 @@ a{
 
 }
 .right_elements_div{
+    padding-right: 80px;
     display: flex;
     flex-direction: row;
     justify-content: center;
