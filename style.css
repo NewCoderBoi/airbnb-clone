@@ -6,6 +6,7 @@
 
 body {
     background-color: rgb(0, 0, 0);
+    font-family: sans-serif;
 
 }
 .airbnblogo{
@@ -61,16 +62,31 @@ a{
     justify-content: center;
     gap: 40px;
 }
-.search_bar_form{
+.search_bar_form {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 0.65rem;
     align-items: center;
-    
-   
+    /* justify-content: space-around; */
+    width: 100%;
 }
-.search_items_div{
+
+.search_items_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 22%;
+    margin-right: 10px;
+}
+
+.search_items_div:first-child {
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 10px;
+    width: 30%;
+}
+
+.texts {
     display: flex;
     flex-direction: column;
     gap: 6px;
